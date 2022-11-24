@@ -5,7 +5,7 @@ let newDate = new Date().getDate();
 console.log(now);
 console.log(newMonth);
 console.log(newDate);
-let ism = prompt("ismingizni kiriting!");
+let ism = prompt("ismingizni kiriting!").toUpperCase();
 let usersBirthYear = +prompt(`${ism} tug'ilgan yilingizni kiriting`);
 let usersBirthMonth = +prompt(`${ism} tug'ilgan oyingizni kiriting`);
 let usersBirthday = +prompt(`${ism} tug'ilgan kuningizni kiriting`);
